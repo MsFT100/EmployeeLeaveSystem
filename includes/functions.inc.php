@@ -89,7 +89,6 @@ function emptyInputLogin($username, $pwd){
     }
     return $result;
 }
-
 function loginUser($conn, $username, $pwd){
     $uidExists = uidExists($conn, $username, $username);
 
@@ -176,7 +175,6 @@ function getCurrentLeaves($conn){
     header('Content-Type: application/json');
     echo json_encode($products);
 }
-
 //we take all the leaves in the users name
 function getMyLeaves($conn, $user_id){
     // replace "your_table_name" with the name of your table

@@ -27,7 +27,7 @@ include_once 'header.php';
                     </span>
                     <button class="btn" type="submit" name="submit">Log in</button>
                     
-                    <a class="btn" onclick="goToPage('signup.php')" type="">Sign Up</a>
+                    <button class="btn" onclick="goToPage('signup.php')" type="">Sign Up</button>
                     <?php
                         if(isset($_GET["error"]))
                         {           

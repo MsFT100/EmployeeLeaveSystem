@@ -2,7 +2,6 @@
 include_once 'header.php';
 ?>
 <body>
-    
 
     <main class="container">
         <header class="Banner">
@@ -36,8 +35,7 @@ include_once 'header.php';
                             }
                             else if($_GET["error"] == "wrong-pass"){
                                 echo "<p>incorrect password</p>";
-                            }
-                            
+                            }     
                     }
                     ?>
                 </div>

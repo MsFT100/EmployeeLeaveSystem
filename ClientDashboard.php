@@ -51,16 +51,16 @@ if(isset($_SESSION['error-duplicate'])) {
                 <li>
                     <button class="btn1" onclick="changeContent('dashboard')"><ion-icon name="albums"></ion-icon>Overview</button>
                 </li>
-                <hr>
+                
                 <li><button class="btn1" onclick="changeContent('applyLeave')"><ion-icon name="calendar-clear"></ion-icon>
                     ApplyLeave</button>
                 </li>
-                <hr>
+                
                 <li>
                     <button class="btn1" onclick="changeContent('leaveStatus')"><ion-icon name="calendar-clear"></ion-icon>
                     LeaveStatus</button>
                 </li>
-                <hr>
+                
             </ul>        
 
         </div>
@@ -152,7 +152,6 @@ if(isset($_SESSION['error-duplicate'])) {
                     <br>
 
                 </form>
-                
             </div>
         </div>
         <div class="content" id="leaveStatus">
